@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#sky{
+  background: url("../public/sky.png")  no-repeat;
+  height: 100%;
+  background-size: 65%;
+}
+#logo{
+  background: url("../public/logo.png")  no-repeat top right;
+  height: 100%;
+  background-size: 200px;
+}
+#building_1{
+  background: url("../public/building_1.png")  no-repeat;
+  height: 100%;
+  background-size: contain;
+}
+#building_2{
+  background: url("../public/building_2.png")  no-repeat;
+  height: 100%;
+  background-size: contain;
+}
+#building_3{
+  background: url("../public/building_3.png")  no-repeat;
+  height: 100%;
+  background-size: contain;
+}
+#road{
+  background: url("../public/road.png")   repeat-x bottom;
+    height: 100%;
+    background-size: 100%;
+    margin-top: -90px;
+}
+#car{
+  background: url("../public/car.png")   no-repeat bottom; 
+    height: 100%;  
+    margin-top: 15px;
+    background-size: 50%;
+    background-position-x: right;
+    margin-top: -90px;
+}
+#pump{
+  background: url("../public/pump.png")   no-repeat;
+    height: 100%;  
+    background-position: right bottom;  
+    margin-top: -80px;
+    
+}
+#leftBuilding{
+  background: url("../public/leftBuilding.png")   no-repeat;
+    height: 100%;  
+    background-position: left bottom;  
+    margin-top: -65px;
+    background-size: 32%;
+}
